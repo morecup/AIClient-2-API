@@ -1,5 +1,107 @@
-node_modules
+# 依赖目录
+node_modules/
+bower_components/
+jspm_packages/
+
+# 配置文件
 config.json
+*.config.json
+.env
+.env.local
+.env.*.local
+
+# IDE和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# AI 助手配置
 .serena/
 .claude/
 CLAUDE.md
+.cursor/
+.github/copilot/
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 测试覆盖率
+coverage/
+*.lcov
+.nyc_output/
+
+# 构建输出
+dist/
+dist-ssr/
+build/
+out/
+*.local
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# 包管理器
+.npm
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# 调试
+.vscode-test/
+*.pid
+*.seed
+*.pid.lock
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# 其他
+*.bak
+*.backup
+*.orig
+.history/
+.gitattributes
