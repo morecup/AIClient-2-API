@@ -13,6 +13,7 @@ config.json
 # IDE和编辑器
 .idea/
 .vscode/
+.spec-workflow/
 *.swp
 *.swo
 *~
